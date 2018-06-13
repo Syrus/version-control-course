@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It showed me all the lines that had changed. Using the -u option caused the
+    diff command to include a few lines of "unified context" to help interpret
+    what I could see there.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I can review the evolution of the file to see what changed during the course
+    of a project. I can learn from what other more advanced developers have done
+    to improve the code and fix bugs.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    I can include metadata about the intention of the commit, describing what I
+    was trying to accomplish. This will help me and other developers understand
+    the code. I can keep each commit focused on one logical step/phase/item.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is designed to manage a complex code base where there are interdependencies
+    between files. Google Docs are usually independent from each other, and it
+    is not generally useful or desirable to track multiple files together.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log shows the history of revisions with their descriptions; git diff allows
+    us to compare two of those revisions to see what changed.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Version control allows me to quickly find the source of a new bug and roll
+    back that change. As a result, I won't fear making changes to my code base.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I already use git to track all of my work projects.
